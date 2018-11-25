@@ -1,3 +1,4 @@
+% Based on promptType, prompt user to change their balance, check if change is valid, then return balance change & log event
 function balanceChange = changeBalance(promptType, currentBalance)
     balanceChange = 0;
 

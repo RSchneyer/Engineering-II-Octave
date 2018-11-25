@@ -1,3 +1,4 @@
+% Calculate and return interest, from the formula interest = balance * APR
 function interest = calculateInterest(balance, apr)
     interest = balance * apr;
 

@@ -1,3 +1,4 @@
+% Display system menu and return their selection, if valid
 function selection = getActionSelection()
     selection = 0;
     while(selection<1 || selection>5)

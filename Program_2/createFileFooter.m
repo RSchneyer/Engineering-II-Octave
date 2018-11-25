@@ -1,3 +1,4 @@
+% Creates a footer at the bottom of the file
 function createFileFooter(dateArray, finalBalance)
     outfile = fopen('xactlog.txt', 'a');
     fprintf(outfile, "-----,-----,-----\n");
